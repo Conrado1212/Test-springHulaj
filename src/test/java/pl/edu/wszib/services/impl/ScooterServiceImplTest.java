@@ -85,6 +85,31 @@ public class ScooterServiceImplTest {
     @Test
     public  void allScooter(){
         List<Scooter> getAllScooters = new ArrayList<>();
+        Scooter scooter = new Scooter();
+
+        scooter.setId(1);
+        scooter.setBrand("Xiaomi");
+        scooter.setModel("Mijia M365");
+        scooter.setPrice(40);
+
+        Scooter scooter1 = new Scooter();
+        scooter1.setId(2);
+        scooter1.setBrand("Xiaomi");
+        scooter1.setModel("Mijia M365 PRO");
+        scooter1.setPrice(45);
+
+        Scooter scooter2 = new Scooter();
+        scooter2.setId(3);
+        scooter2.setBrand("Fiat");
+        scooter2.setModel("M500");
+        scooter2.setPrice(30);
+
+        Scooter scooter3 = new Scooter();
+
+        scooter3.setId(4);
+        scooter3.setBrand("Fiat");
+        scooter3.setModel("M500 8.5");
+        scooter3.setPrice(40);
 
         Mockito.when(scooterDAO.getAllScooters()).thenReturn(getAllScooters);
 
