@@ -28,14 +28,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="3762" />
+          <entry key="java" value="3814" />
           <entry key="properties" value="2" />
           <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3762" />
+          <entry key="JAVA" value="3814" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="24" />
@@ -144,8 +144,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/wszib/services/impl/ScooterServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="366">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,8 +213,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1082" />
-    <option name="y" value="224" />
+    <option name="x" value="708" />
+    <option name="y" value="141" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -483,7 +483,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579184653945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579186459991" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../raportproject" />
@@ -513,7 +513,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ScooterServiceImplTest.allScooter">
+  <component name="RunManager" selected="JUnit.ScooterServiceImplTest.getScooter">
     <configuration name="ScooterServiceImplTest.allScooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testspringHulaj" />
       <extension name="coverage">
@@ -603,8 +603,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ScooterServiceImplTest.allScooter" />
         <item itemvalue="JUnit.ScooterServiceImplTest.getScooter" />
+        <item itemvalue="JUnit.ScooterServiceImplTest.allScooter" />
         <item itemvalue="JUnit.ScooterServiceImplTest.getScooterTest" />
         <item itemvalue="JUnit.ScooterServiceImplTest.getAllScooterFiat" />
         <item itemvalue="JUnit.ScooterServiceImplTest.getAllScooterXiaomi" />
@@ -625,12 +625,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ScooterServiceImplTest_getAllScooterXiaomi - 2020.01.16 at 14h 24m 07s.xml">
-      <configuration name="ScooterServiceImplTest.getAllScooterXiaomi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScooterServiceImplTest_getAllScooterXiaomi - 2020.01.16 at 14h 25m 17s.xml">
-      <configuration name="ScooterServiceImplTest.getAllScooterXiaomi" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ScooterServiceImplTest_getAllScooterXiaomi - 2020.01.16 at 14h 25m 48s.xml">
       <configuration name="ScooterServiceImplTest.getAllScooterXiaomi" configurationId="JUnit" />
     </history-entry>
@@ -655,12 +649,18 @@
     <history-entry file="ScooterServiceImplTest_getScooter - 2020.01.16 at 15h 17m 14s.xml">
       <configuration name="ScooterServiceImplTest.getScooter" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ScooterServiceImplTest_allScooter - 2020.01.16 at 15h 24m 29s.xml">
+      <configuration name="ScooterServiceImplTest.allScooter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScooterServiceImplTest_getScooter - 2020.01.16 at 15h 29m 52s.xml">
+      <configuration name="ScooterServiceImplTest.getScooter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1082" y="224" width="1294" height="1407" extended-state="0" />
+    <frame x="708" y="141" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29578605" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29578605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -669,7 +669,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299293" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299293" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -836,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/wszib/services/impl/ScooterServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="366">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -20,6 +20,7 @@ import pl.edu.wszib.services.IScooterService;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -37,49 +38,34 @@ public class ScooterServiceImplTest {
     @Autowired
     private MockMvc mockMvc;
 
-    @Test
-    public void addScooterTest(){
-        Scooter scooter = new Scooter();
-        scooter.setId(1);
-        scooter.setBrand("Xiaomi");
 
 
-       /// Mockito.when(this.scooterDAO.addScooter( scooter)).thenReturn(new Scooter(1,"Xiaomi","Mijia M365",40));
 
 
-    }
 
 
-    @Test
-    public void getUpdate(){
-        Scooter scooter = new Scooter();
-        scooter.setId(1);
-        scooter.setBrand("Xiaomi");
 
-        //Mockito.when(this.scooterDAO.getUpdate(1,scooter)).thenReturn()
-    }
-
-
-    @Test
-    public void removeScooterId(){
-        Scooter scooter = new Scooter();
-        scooter.setId(1);
-        scooter.setBrand("Xiaomi");
-
-       // Mockito.when(this.scooterDAO.removeScooterId(1)).thenReturn(new Scooter(1,"Xiaomi","Mijia M365",40));
-    }
 
     @Test
     public void getScooter(){
         Scooter scooter = new Scooter();
         scooter.setId(1);
         scooter.setBrand("Xiaomi");
+        scooter.setModel("Mijia M365");
 
-
-        Mockito.when(this.scooterDAO.getScooter(2)).thenReturn(new Scooter(1,"Xiaomi","Mijia M365",40));
+        Mockito.when(this.scooterDAO.getScooter(anyInt())).thenReturn(new Scooter(1,"Xiaomi","Mijia M365",40));
         Scooter result = this.scooterService.getScooter(1);
-        Assert.assertNull(result);
+        Assert.assertNotNull(result);
 
+    }
+
+    @Test
+    public void getUpdate(){
+        Scooter scooter = new Scooter();
+        scooter.setId(1);
+        scooter.setBrand("Xiaomi");
+        scooter.setModel("Mijia M365");
+       // Mockito.when(this.scooterDAO.getUpdate(anyInt(),anyObject())).thenReturn()
     }
 
     @Test
@@ -121,7 +107,18 @@ public class ScooterServiceImplTest {
     @Test
     public  void getAllScooterXiaomi(){
         List<Scooter> getAllScooterXiaomi = new ArrayList<>();
+        Scooter scooter = new Scooter();
 
+        scooter.setId(1);
+        scooter.setBrand("Xiaomi");
+        scooter.setModel("Mijia M365");
+        scooter.setPrice(40);
+
+        Scooter scooter1 = new Scooter();
+        scooter1.setId(2);
+        scooter1.setBrand("Xiaomi");
+        scooter1.setModel("Mijia M365 PRO");
+        scooter1.setPrice(45);
         Mockito.when(scooterDAO.getAllScooterXiaomi()).thenReturn(getAllScooterXiaomi);
 
         List result = this.scooterService.getAllScooterXiaomi();
@@ -131,6 +128,18 @@ public class ScooterServiceImplTest {
     @Test
     public  void getAllScooterFiat(){
         List<Scooter> getAllScooterFiat = new ArrayList<>();
+        Scooter scooter2 = new Scooter();
+        scooter2.setId(3);
+        scooter2.setBrand("Fiat");
+        scooter2.setModel("M500");
+        scooter2.setPrice(30);
+
+        Scooter scooter3 = new Scooter();
+
+        scooter3.setId(4);
+        scooter3.setBrand("Fiat");
+        scooter3.setModel("M500 8.5");
+        scooter3.setPrice(40);
         when(scooterDAO.getAllScooterFiat()).thenReturn(getAllScooterFiat);
 
         List result = this.scooterService.getAllScooterFiat();
@@ -163,7 +172,7 @@ public class ScooterServiceImplTest {
 
         Scooter scooter = scooterDAO.getScooter(1);
 
-        Assert.assertNull(scooter);
+        Assert.assertNotNull(scooter);
    }
 
 }
