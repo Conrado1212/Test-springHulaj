@@ -24,10 +24,14 @@ public class ScooterDAOImpl implements IScooterDAO {
         Transaction tx = null;
 
         try{
+            session = this.sessionFactory.openSession();
             tx = session.beginTransaction();
+
             session.save(scooter);
             tx.commit();
+
         }catch(HibernateException e){
+            e.printStackTrace();
             if(tx !=null) tx.rollback();
         }finally{
             session.close();
@@ -36,7 +40,7 @@ public class ScooterDAOImpl implements IScooterDAO {
 
     @Override
     public    Scooter getScooter(int Id){
-         Session session = null;
+        Session  session = this.sessionFactory.openSession();
 
         Scooter scooter =
                 (Scooter) session.createQuery("FROM pl.edu.wszib.model.Scooter WHERE id = " + Id).uniqueResult();
@@ -50,6 +54,7 @@ public class ScooterDAOImpl implements IScooterDAO {
         Session session = null;
         Transaction tx = null;
         try{
+            session = this.sessionFactory.openSession();
             tx = session.beginTransaction();
             session.get(Scooter.class,Id);
 
@@ -68,6 +73,7 @@ public class ScooterDAOImpl implements IScooterDAO {
         Transaction tx = null;
 
         try{
+            session = this.sessionFactory.openSession();
             tx = session.beginTransaction();
             Scooter scooter =
                     (Scooter) session.get(Scooter.class, Id);

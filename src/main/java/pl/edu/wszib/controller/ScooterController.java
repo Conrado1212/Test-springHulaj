@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-import pl.edu.wszib.dao.IScooterDAO;
+import pl.edu.wszib.dao.impl.ScooterDAOImpl;
 import pl.edu.wszib.model.Scooter;
 
 @Controller
 public class ScooterController {
 
     @Autowired
-    IScooterDAO scooterDAO;
+    ScooterDAOImpl scooterDAO;
 
     @RequestMapping(value = "/scooter_page",method = RequestMethod.GET)
     public ModelAndView scooterPage(){

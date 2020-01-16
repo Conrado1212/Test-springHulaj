@@ -1,7 +1,6 @@
 package pl.edu.wszib.services.impl;
 
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
@@ -13,7 +12,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import pl.edu.wszib.configuration.AppConfigurationTest;
 import pl.edu.wszib.dao.IScooterDAO;
-import pl.edu.wszib.dao.impl.ScooterDAOImpl;
 import pl.edu.wszib.model.Scooter;
 import pl.edu.wszib.services.IScooterService;
 
@@ -21,7 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.mockito.ArgumentMatchers.anyInt;
-import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -40,12 +37,6 @@ public class ScooterServiceImplTest {
 
 
 
-
-
-
-
-
-
     @Test
     public void getScooter(){
         Scooter scooter = new Scooter();
@@ -57,15 +48,6 @@ public class ScooterServiceImplTest {
         Scooter result = this.scooterService.getScooter(1);
         Assert.assertNotNull(result);
 
-    }
-
-    @Test
-    public void getUpdate(){
-        Scooter scooter = new Scooter();
-        scooter.setId(1);
-        scooter.setBrand("Xiaomi");
-        scooter.setModel("Mijia M365");
-       // Mockito.when(this.scooterDAO.getUpdate(anyInt(),anyObject())).thenReturn()
     }
 
     @Test
@@ -147,13 +129,13 @@ public class ScooterServiceImplTest {
     }
 
 
-    private static ScooterServiceImplTest scooterServiceImplTest;
+  /*  private static ScooterServiceImplTest scooterServiceImplTest;
    private static Scooter scooter1;
     private static Scooter scooter2;
 
     @BeforeClass
     public static void setUp(){
-   scooterServiceImplTest = mock(ScooterServiceImplTest.class);
+         scooterServiceImplTest = mock(ScooterServiceImplTest.class);
 
    scooter1 = new Scooter(1,"Xiaomi","Mijia M365",40);
    scooter2 = new Scooter(2,"Xiaomi","Mijia M365 PRO",45);
@@ -169,10 +151,10 @@ public class ScooterServiceImplTest {
 
    @Test
    public void getScooterTest(){
-
+        int  id  =1;
         Scooter scooter = scooterDAO.getScooter(1);
 
         Assert.assertNotNull(scooter);
-   }
+   }*/
 
 }

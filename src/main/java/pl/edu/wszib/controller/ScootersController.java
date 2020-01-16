@@ -6,7 +6,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import pl.edu.wszib.dao.IScooterDAO;
-import pl.edu.wszib.dao.impl.ScooterDAOImpl;
 
 @Controller
 public class ScootersController {
