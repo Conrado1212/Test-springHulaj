@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aac4610a-8950-4c5a-b77c-ac4d08160b43" name="Default Changelist" comment="" />
+    <list default="true" id="aac4610a-8950-4c5a-b77c-ac4d08160b43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/model/Scooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/model/Scooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/edu/wszib/services/impl/ScooterServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/edu/wszib/services/impl/ScooterServiceImplTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,23 +21,23 @@
     <session id="-141671410">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="2527" />
+          <entry key="java" value="3625" />
           <entry key="properties" value="2" />
           <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2527" />
+          <entry key="JAVA" value="3625" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="24" />
@@ -43,7 +47,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="3" />
-          <entry key="java" value="26" />
+          <entry key="java" value="27" />
           <entry key="properties" value="2" />
           <entry key="xml" value="3" />
         </counts>
@@ -52,7 +56,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="27" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="3" />
         </counts>
@@ -61,15 +65,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/model/Scooter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/impl/ScooterDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+            <state relative-caret-position="-340">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/ScooterServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="431">
               <caret line="29" column="25" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/wszib/configuration/AppConfigurationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/wszib/dao/impl/ScooterDOAImplStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="312">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,11 +151,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/wszib/services/impl/ScooterServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1038">
-              <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+            <state relative-caret-position="672">
+              <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/IScooterService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -185,6 +189,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -206,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/test/java/pl/edu/wszib/configuration/AppConfigurationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/edu/wszib/dao/impl/ScooterDOAImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/edu/wszib/model/Scooter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/IScooterService.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/edu/wszib/services/impl/ScooterServiceImplTest.java" />
       </list>
     </option>
@@ -220,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -475,15 +484,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579026506643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579182847003" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../raportproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -510,21 +518,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ScooterServiceImplTest.getAllScooterXiaomi">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.App" />
-      <module name="testspringHulaj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.wszib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScooterServiceImplTest.addScooterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ScooterServiceImplTest.getScooterTest">
+    <configuration name="ScooterServiceImplTest.allScooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testspringHulaj" />
       <extension name="coverage">
         <pattern>
@@ -534,13 +529,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.edu.wszib.services.impl" />
       <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.services.impl.ScooterServiceImplTest" />
-      <option name="METHOD_NAME" value="addScooterTest" />
+      <option name="METHOD_NAME" value="allScooter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScooterServiceImplTest.callScooterPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScooterServiceImplTest.getAllScooterFiat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testspringHulaj" />
       <extension name="coverage">
         <pattern>
@@ -550,7 +545,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.edu.wszib.services.impl" />
       <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.services.impl.ScooterServiceImplTest" />
-      <option name="METHOD_NAME" value="callScooterPage" />
+      <option name="METHOD_NAME" value="getAllScooterFiat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -572,18 +567,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScooterServiceImplTest.getScooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testspringHulaj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.wszib.services.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.wszib.services.impl" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.services.impl.ScooterServiceImplTest" />
+      <option name="METHOD_NAME" value="getScooter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScooterServiceImplTest.getScooterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testspringHulaj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.wszib.services.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.wszib.services.impl" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.wszib.services.impl.ScooterServiceImplTest" />
+      <option name="METHOD_NAME" value="getScooterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.ScooterServiceImplTest.addScooterTest" />
-      <item itemvalue="JUnit.ScooterServiceImplTest.callScooterPage" />
       <item itemvalue="JUnit.ScooterServiceImplTest.getAllScooterXiaomi" />
+      <item itemvalue="JUnit.ScooterServiceImplTest.getScooter" />
+      <item itemvalue="JUnit.ScooterServiceImplTest.allScooter" />
+      <item itemvalue="JUnit.ScooterServiceImplTest.getAllScooterFiat" />
+      <item itemvalue="JUnit.ScooterServiceImplTest.getScooterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScooterServiceImplTest.getScooterTest" />
+        <item itemvalue="JUnit.ScooterServiceImplTest.getAllScooterFiat" />
+        <item itemvalue="JUnit.ScooterServiceImplTest.allScooter" />
         <item itemvalue="JUnit.ScooterServiceImplTest.getAllScooterXiaomi" />
-        <item itemvalue="JUnit.ScooterServiceImplTest.callScooterPage" />
-        <item itemvalue="JUnit.ScooterServiceImplTest.addScooterTest" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.ScooterServiceImplTest.getScooter" />
       </list>
     </recent_temporary>
   </component>
@@ -601,21 +630,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ScooterServiceImplTest_addScooterTest - 2020.01.14 at 17h 23m 06s.xml">
-      <configuration name="ScooterServiceImplTest.addScooterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ScooterServiceImplTest_callScooterPage - 2020.01.14 at 17h 23m 16s.xml">
       <configuration name="ScooterServiceImplTest.callScooterPage" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ScooterServiceImplTest_getAllScooterXiaomi - 2020.01.14 at 17h 51m 37s.xml">
       <configuration name="ScooterServiceImplTest.getAllScooterXiaomi" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ScooterServiceImplTest_getScooter - 2020.01.16 at 14h 14m 12s.xml">
+      <configuration name="ScooterServiceImplTest.getScooter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScooterServiceImplTest_getAllScooterXiaomi - 2020.01.16 at 14h 24m 07s.xml">
+      <configuration name="ScooterServiceImplTest.getAllScooterXiaomi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScooterServiceImplTest_getAllScooterXiaomi - 2020.01.16 at 14h 25m 17s.xml">
+      <configuration name="ScooterServiceImplTest.getAllScooterXiaomi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScooterServiceImplTest_getAllScooterXiaomi - 2020.01.16 at 14h 25m 48s.xml">
+      <configuration name="ScooterServiceImplTest.getAllScooterXiaomi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScooterServiceImplTest_allScooter - 2020.01.16 at 14h 27m 15s.xml">
+      <configuration name="ScooterServiceImplTest.allScooter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScooterServiceImplTest_allScooter - 2020.01.16 at 14h 27m 41s.xml">
+      <configuration name="ScooterServiceImplTest.allScooter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScooterServiceImplTest_allScooter - 2020.01.16 at 14h 28m 28s.xml">
+      <configuration name="ScooterServiceImplTest.allScooter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScooterServiceImplTest_getAllScooterFiat - 2020.01.16 at 14h 30m 24s.xml">
+      <configuration name="ScooterServiceImplTest.getAllScooterFiat" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28606158" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29578605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -624,7 +674,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299293" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299293" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -664,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/IScooterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -706,6 +749,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/src/pl/edu/wszib/dao/impl/ScooterDAOImplTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/src/pl/edu/wszib/services/impl/ScooterServiceImplTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/wszib/dao/impl/ScooterDAOImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/model/Scooter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -728,30 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/impl/ScooterDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/ScooterServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,16 +792,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/model/Scooter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/IScooterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/wszib/configuration/AppConfigurationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/wszib/dao/impl/ScooterDOAImplStub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="312">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -779,10 +819,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/wszib/configuration/AppConfigurationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/services/impl/ScooterServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="431">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/dao/impl/ScooterDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -791,8 +841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/edu/wszib/services/impl/ScooterServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1038">
-          <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+        <state relative-caret-position="672">
+          <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -12,6 +12,17 @@ public class Scooter {
     private String model;
     private int price;
 
+    public Scooter(){
+
+    }
+
+    public Scooter(int id, String brand, String model, int price) {
+        Id = id;
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+    }
+
     public int getId() {
         return Id;
     }
