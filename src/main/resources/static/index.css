@@ -40,7 +40,19 @@
         display: block;
          margin: 10px auto;
          text-align: center;
+}
+.text-list{
+ color: black;
 
+     border-radius: 25px;
+        font-size: 20px;
+        border: 1px solid white;
+        padding: 5px 10px;
+        text-decoration: none;
+        box-shadow: inset 5px 5px 10px;
+        display: block;
+         margin: 10px auto;
+         text-align: center;
 }
 .buttonReturn {
     color: black;
@@ -54,3 +66,15 @@
         left:0;
     cursor:  pointer;
     }
+
+.logo{
+
+ background image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Scooter_Logo.svg/1024px-Scooter_Logo
+ .svg.png");
+ width: 500px;
+     height: 50px;
+ display block;
+   bottom:0;
+   top: 300px;
+         left:0;
+}
