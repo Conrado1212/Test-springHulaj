@@ -5,11 +5,52 @@
     padding: 5px 10px;
     text-decoration: none;
     box-shadow: inset 5px 5px 10px;
-    cursor: progress;
+    cursor:  pointer;
     }
 #hello-text{
  color: black;
  font-size: 24px;
   border: 1px solid white;
   box-shadow: 5px 5px 10px;
+
 }
+.buttonPointer{
+   color: black;
+
+ border-radius: 25px;
+    font-size: 24px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    text-decoration: none;
+    box-shadow: inset 5px 5px 10px;
+     text-align: center;
+     display: block;
+      margin: 10px auto;
+  cursor:  pointer;
+}
+.text-field {
+    color: black;
+
+     border-radius: 25px;
+        font-size: 24px;
+        border: 1px solid white;
+        padding: 5px 10px;
+        text-decoration: none;
+        box-shadow: inset 5px 5px 10px;
+        display: block;
+         margin: 10px auto;
+         text-align: center;
+
+}
+.buttonReturn {
+    color: black;
+    font-size: 24px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    text-decoration: none;
+    box-shadow: inset 5px 5px 10px;
+    position:absolute;
+        bottom:0;
+        left:0;
+    cursor:  pointer;
+    }

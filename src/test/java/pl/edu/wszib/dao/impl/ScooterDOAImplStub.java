@@ -29,6 +29,11 @@ public class ScooterDOAImplStub implements IScooterDAO {
     }
 
     @Override
+    public void getUpdateScooter(int Id, Scooter scooter) {
+
+    }
+
+    @Override
     public void removeScooterId(int Id) {
 
     }

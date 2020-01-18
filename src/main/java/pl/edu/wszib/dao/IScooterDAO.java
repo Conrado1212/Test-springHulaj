@@ -11,6 +11,9 @@ public interface IScooterDAO {
 
     void getUpdate(int Id, Scooter scooter);
 
+
+    void getUpdateScooter(int Id, Scooter scooter);
+
     void  removeScooterId(int Id);
 
     List<Scooter> getAllScooterXiaomi();

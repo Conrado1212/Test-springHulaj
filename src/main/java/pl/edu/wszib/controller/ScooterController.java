@@ -40,6 +40,8 @@ public class ScooterController {
 
     @RequestMapping(value = "/addScooter",method = RequestMethod.POST)
     public String addScooterForm(@ModelAttribute("addScooterKey")Scooter scooter){
+        Scooter scooter1 = new Scooter();
+        scooter1 = scooter;
         this.scooterDAO.addScooter(scooter);
         return  "redirect:indexAddScooter";
     }
@@ -89,11 +91,20 @@ public class ScooterController {
     @RequestMapping(value = "/updateScooter",method = RequestMethod.POST)
     public String updateScooterForm(@ModelAttribute("updateScooterKey")Scooter scooter){
         this.scooterDAO.getUpdate(scooter.getId(),scooter);
-        return "redirect:indexGetScooter";
+        return "redirect:indexUpdateScooter";
     }
 
     @RequestMapping(value = "/indexUpdateScooter",method = RequestMethod.GET)
-    public String indexUpdateScooter(){
-        return"indexGetScooter";
+    public ModelAndView indexUpdateScooter(){
+        return new ModelAndView("indexUpdateScooter","indexUpdateScooterKey",new Scooter());
+    }
+    @RequestMapping(value = "/indexUpdateScooter",method = RequestMethod.POST)
+    public String indexUpdateScooterForm(@ModelAttribute("indexUpdateScooterKey")Scooter scooter){
+       this.scooterDAO.getUpdateScooter(scooter.getId(),scooter);
+        return "redirect:indexGetUpdateScooter";
+    }
+    @RequestMapping(value = "/indexGetUpdateScooter",method = RequestMethod.GET)
+    public String indexGetUpdateScooter(){
+        return"indexGetUpdateScooter";
     }
 }
