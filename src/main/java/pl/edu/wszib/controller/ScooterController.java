@@ -7,11 +7,17 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import pl.edu.wszib.SessionObject;
 import pl.edu.wszib.dao.impl.ScooterDAOImpl;
 import pl.edu.wszib.model.Scooter;
 
+import javax.annotation.Resource;
+
 @Controller
 public class ScooterController {
+
+    @Resource(name = "sessionObject")
+    SessionObject sessionObject;
 
     @Autowired
     ScooterDAOImpl scooterDAO;
@@ -19,7 +25,8 @@ public class ScooterController {
     @RequestMapping(value = "/scooter_page",method = RequestMethod.GET)
     public ModelAndView scooterPage(){
         return new ModelAndView("scooterPage","scooterKey",new Scooter());
-    }
+   }
+
 
     @RequestMapping(value = "/scooter_page",method = RequestMethod.POST)
     public String scooterForm(@ModelAttribute("scooterKey")Scooter scooter){
@@ -35,14 +42,18 @@ public class ScooterController {
 
     @RequestMapping(value = "/addScooter",method = RequestMethod.GET)
     public ModelAndView addScooter(){
+
         return new ModelAndView("addScooter","addScooterKey",new Scooter());
+
     }
 
     @RequestMapping(value = "/addScooter",method = RequestMethod.POST)
     public String addScooterForm(@ModelAttribute("addScooterKey")Scooter scooter){
+
         Scooter scooter1 = new Scooter();
         scooter1 = scooter;
         this.scooterDAO.addScooter(scooter);
+
         return  "redirect:indexAddScooter";
     }
 
@@ -80,6 +91,7 @@ public class ScooterController {
 
     @RequestMapping(value = "/indexGetScooter",method = RequestMethod.GET)
     public String indexGetScooter(){
+
         return"indexGetScooter";
     }
 

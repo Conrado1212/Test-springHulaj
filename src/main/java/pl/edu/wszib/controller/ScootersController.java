@@ -5,10 +5,18 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import pl.edu.wszib.SessionObject;
 import pl.edu.wszib.dao.IScooterDAO;
+
+import javax.annotation.Resource;
 
 @Controller
 public class ScootersController {
+
+
+    @Resource(name = "sessionObject")
+    SessionObject sessionObject;
+
 
     @Autowired
     IScooterDAO scooterDAO;
@@ -16,6 +24,9 @@ public class ScootersController {
     @RequestMapping(value ="/allScooter",method = RequestMethod.GET)
     public String allScooter(Model model){
         model.addAttribute("allScooter",this.scooterDAO.getAllScooters());
+        if(this.sessionObject.getUser() == null){
+            return "redirect:loginPage";
+        }
         return "allScooter";
     }
 
@@ -23,6 +34,9 @@ public class ScootersController {
     public String scooterXiaomiPage(Model model){
 
         model.addAttribute("allScooterXiomi",this.scooterDAO.getAllScooterXiaomi());
+        if(this.sessionObject.getUser() == null){
+            return "redirect:loginPage";
+        }
         return"allScooterXiomi";
     }
 
@@ -30,6 +44,9 @@ public class ScootersController {
     public String scooterFiatPage(Model model){
 
         model.addAttribute("allScooterFiat",this.scooterDAO.getAllScooterFiat());
+        if(this.sessionObject.getUser() == null){
+            return "redirect:loginPage";
+        }
         return "allScooterFiat";
 }
     }
