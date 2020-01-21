@@ -7,6 +7,7 @@
         <!-- Database Connection settings -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/scooter2</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/trainingapp</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password"></property>
 
@@ -21,5 +22,6 @@
 
         <!-- mappings -->
         <mapping class="pl.edu.wszib.model.Scooter" />
+        <mapping class="pl.edu.wszib.model.User" />
     </session-factory>
 </hibernate-configuration>
